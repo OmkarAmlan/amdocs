@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Network</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            height: 100vh;
+            background-color: #f5f5f5;
+        }
+
+        .navbar {
+            width: 250px;
+            background-color: #fff;
+            padding: 2rem 1rem;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #2196F3;
+            margin-bottom: 2rem;
+        }
+
+        .nav-links {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+
+        .nav-links a {
+            color: #333;
+            text-decoration: none;
+            padding: 1rem;
+            text-align: center;
+            border-radius: 4px;
+            display: block;
+        }
+
+        .nav-links a:hover {
+            background-color: #f5f5f5;
+        }
+
+        .nav-links a.active {
+            color: #2196F3;
+            font-weight: bold;
+        }
+
+        .main-content {
+            flex-grow: 1;
+            padding: 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .hero {
+            text-align: center;
+        }
+
+        .cta-buttons {
+            margin-top: 1rem;
+        }
+
+        .cta-button {
+            display: inline-block;
+            margin: 0.5rem;
+            padding: 0.75rem 1.5rem;
+            background-color: #2196F3;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+
+        .cta-button:hover {
+            background-color: #1976D2;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">ProNetwork</div>
+        <div class="nav-links">
+            <a href="templates/jobPosting.html">Job Listings</a>
+            <a href="templates/network.html">My Network</a>
+            <a href="templates/upskilling.html">Upskill</a>
+        </div>
+    </nav>
+    <div class="main-content">
+        <main class="hero">
+            <h1>Welcome to Professional Network</h1>
+            <p>Connect, Grow, and Find Your Dream Job</p>
+            <div class="cta-buttons">
+                <a href="pages/jobs.html" class="cta-button">Find Jobs</a>
+                <a href="pages/network.html" class="cta-button">Connect</a>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
