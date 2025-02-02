@@ -37,6 +37,6 @@ def get_connection_strength(user_id_1, user_id_2):
 
     # If there are no direct or indirect connections, return connection strength 3+
     conn.close()
-    return 3
+    return "3+"
 
-print(get_connection_strength(1,2))
+print(get_connection_strength(1,4))
